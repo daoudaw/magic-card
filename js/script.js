@@ -17,6 +17,9 @@ const end_counter =document.querySelector('#end_counter');
 //Secret counter
 let counter = 0;
 
+//result
+const result = document.querySelector('.result');
+
 //disabling buttons
 bt_bra.disabled = true;
 bt_ca.disabled = true;
@@ -133,7 +136,19 @@ reveal.addEventListener('click', ()=> {
     bt_bra2.disabled = true;
     bt_end.disabled = true;
 
-    console.log(counter);
+    //if counter > 0, show number
+    if(counter > 0) {
+        result.innerHTML = `<h3>Tu as choisi <b>${counter}</b> !</h3>`
+    }
+    else {
+        result.innerHTML = "<h3>Tu n'as pas fait de choix !</h3>";
+    }
+
+
+    // else show message
+
+
+    //console.log(counter);
 });
 
 
