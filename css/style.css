@@ -55,7 +55,11 @@ hr {
 
 .btns > button:hover {
     background-color: darkgray;
+   
+}
 
+.btns > button:disabled {
+    cursor: not-allowed;
 }
 
 
@@ -118,8 +122,11 @@ hr {
 
 .reveal:hover {
     background-color: #ff8a86;
-    color: white;
-    
+    color: white;   
+}
+
+.reveal:disabled {
+    cursor: not-allowed;
 }
 
 .result {
