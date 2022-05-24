@@ -27,6 +27,10 @@ let counter = 0;
 //result
 const result = document.querySelector('.result');
 
+const reload = document.querySelector('.reload');
+
+/******************************************************************* */
+
 //disabling buttons
 bt_bra.disabled = true;
 bt_bra.style.backgroundColor = "#27252f";
@@ -194,6 +198,18 @@ end_counter_bis.addEventListener('click', ()=> {
    
 });
 
+reveal.addEventListener('mouseover', ()=> {
+    reveal.style.backgroundColor = "#ff8a86";
+    reveal.style.color = "white";
+
+});
+
+reveal.addEventListener('mouseout', ()=> {
+    reveal.style.backgroundColor = "white";
+    reveal.style.color = "black";
+
+});
+
 
 //Poof button
 reveal.addEventListener('click', ()=> {
@@ -215,7 +231,7 @@ reveal.addEventListener('click', ()=> {
     bt_end.disabled = true;
     bt_end.style.backgroundColor = "#27252f";
 
-    //if counter > 0, show number
+   
     if(counter > 0) {
         result.innerHTML = `<h3>Tu as choisi <b>${counter}</b> !</h3>`
     }
@@ -224,10 +240,10 @@ reveal.addEventListener('click', ()=> {
     }
 
 
-    // else show message
-
-
-    //console.log(counter);
 });
 
+
+reload.addEventListener('click', ()=> {
+    location.reload();
+});
 
