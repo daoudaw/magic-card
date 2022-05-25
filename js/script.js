@@ -237,7 +237,7 @@ reveal.addEventListener('click', ()=> {
         result.innerHTML = `<h3>Tu as choisi <b>${counter}</b> !</h3>`
     }
     if(counter == 0 || counter == 63) {
-        result.innerHTML = "<h3>Le nombre doit être entre 0 et 60 !</h3>";
+        result.innerHTML = "<h3>Le nombre doit être entre 1 et 60 !</h3>";
     }
 
   
