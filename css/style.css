@@ -35,7 +35,7 @@ p {
 }
 
 
-
+/*
 .frame .left {
     transform: translateX(-15%);
     transition: 0.3s linear;
@@ -53,7 +53,7 @@ p {
 .frame:hover .right {
     transform: translateX(0%);
 }
-
+*/
 
 
 hr {
@@ -196,7 +196,7 @@ hr {
         height: 15rem;
     }
 
-  /*  .frame .left {
+   /* .frame .left {
         transform: translateX(25.3%);
         transition: 0.3s linear;
     }
