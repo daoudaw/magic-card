@@ -181,7 +181,7 @@ hr {
 
 
 
-@media screen and (min-width: 500px) and (max-width: 728px) {
+@media screen  and (max-width: 1170px) {
     p {
         font-size: 1rem;
     }
@@ -196,7 +196,7 @@ hr {
         height: 15rem;
     }
 
-    .frame .left {
+  /*  .frame .left {
         transform: translateX(25.3%);
         transition: 0.3s linear;
     }
@@ -212,7 +212,7 @@ hr {
     
     .frame:hover .right {
         transform: translateX(-25.3%);
-    }
+    }*/
 
     .btns {
         display: flex;
