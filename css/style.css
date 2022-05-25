@@ -47,11 +47,11 @@ p {
 }
 
 .frame:hover .left {
-    transform: translateX(0%)
+    transform: translateX(0%);
 }
 
 .frame:hover .right {
-    transform: translateX(0%)
+    transform: translateX(0%);
 }
 
 
@@ -197,21 +197,21 @@ hr {
     }
 
     .frame .left {
-        transform: translateX(20%);
+        transform: translateX(25.3%);
         transition: 0.3s linear;
     }
     
     .frame .right {
-        transform: translateX(-20%);
+        transform: translateX(-25.3%);
         transition: 0.3s linear;
     }
     
     .frame:hover .left {
-        transform: translateX(25.3%)
+        transform: translateX(25.3%);
     }
     
     .frame:hover .right {
-        transform: translateX(-25.3%)
+        transform: translateX(-25.3%);
     }
 
     .btns {
