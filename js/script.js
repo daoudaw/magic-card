@@ -27,6 +27,7 @@ let counter = 0;
 //result
 const result = document.querySelector('.result');
 
+//reload
 const reload = document.querySelector('.reload');
 
 /******************************************************************* */
@@ -242,6 +243,7 @@ reveal.addEventListener('click', ()=> {
   
 
 });
+
 
 
 reload.addEventListener('click', ()=> {
