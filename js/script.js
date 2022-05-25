@@ -235,10 +235,11 @@ reveal.addEventListener('click', ()=> {
     if(counter > 0) {
         result.innerHTML = `<h3>Tu as choisi <b>${counter}</b> !</h3>`
     }
-    else {
-        result.innerHTML = "<h3>Tu n'as pas fait de choix !</h3>";
+    if(counter == 0 || counter == 63) {
+        result.innerHTML = "<h3>Le nombre doit être entre 0 et 60 !</h3>";
     }
 
+  
 
 });
 
